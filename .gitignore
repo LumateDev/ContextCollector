@@ -1,0 +1,71 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Сборка и дистрибутивы
+build/
+dist/
+build_temp/
+*.spec
+*.exe
+*.msi
+*.dmg
+*.app
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Результаты работы программы
+*_context.txt
+*_context.md
+context_*.txt
+context_*.md
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Файлы проекта
+*.bak
+*.orig
+*.rej
