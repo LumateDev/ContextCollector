@@ -70,6 +70,7 @@ SELF_OUTPUT_PATTERNS: list = [
     '_context.md',
 ]
 
+__version__ = "0.1.0"
 
 @dataclass
 class AppConfig:

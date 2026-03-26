@@ -12,6 +12,7 @@ from datetime import datetime
 from config import AppConfig, get_config_dir, DEFAULT_EXTENSIONS, DEFAULT_EXCLUDED_DIRS
 from scanner import ProjectScanner
 from formatter import format_context
+from config import __version__
 
 
 # ─── Логирование в файл ───
@@ -58,7 +59,7 @@ class App(ctk.CTk):
         self.cfg = AppConfig.load()
         self.cancelled = False
         self.running = False
-        self.title('Context Collector')
+        self.title(f'Context Collector v{__version__}')
         self.geometry('400x340')
         self.resizable(False, False)
         appearance = self.cfg.appearance

@@ -2,7 +2,7 @@
 
 Утилита для сбора контекста проекта в текстовый файл или Markdown с фильтрацией файлов и поддержкой `.gitignore`.
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 

@@ -6,7 +6,7 @@ Markdown валидный по markdownlint.
 from datetime import datetime
 from typing import List
 from scanner import ScanResult
-
+from config import __version__
 
 def estimate_tokens(text: str) -> int:
     if not text:
@@ -100,7 +100,7 @@ def format_context(
     if output_format == 'md':
         parts.append('---')
         parts.append('')
-        parts.append('Context Collector v1.0')
+        parts.append(f'Context Collector v{__version__}')
         parts.append('')  # MD047: trailing newline
     else:
         parts += ['═' * 60,
